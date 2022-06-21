@@ -44,6 +44,7 @@ dependencies {
     implementation files('libs/robotservice_V1.1.1.jar')
     implementation files('libs/temisdk.aar')
     implementation 'com.google.code.gson:gson:2.9.0'
+    implementation 'com.github.pwntz:temi-sdk:1.0.2'
 
 }
 
