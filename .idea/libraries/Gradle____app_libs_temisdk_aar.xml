@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: ./app/libs/temisdk.aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/65cd36b1ecf735604be25e59962312d6/transformed/jetified-temisdk/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/65cd36b1ecf735604be25e59962312d6/transformed/jetified-temisdk/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/65cd36b1ecf735604be25e59962312d6/transformed/jetified-temisdk/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
