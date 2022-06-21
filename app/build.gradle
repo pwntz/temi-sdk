@@ -6,12 +6,12 @@ plugins {
 }
 group = 'com.github.pwntz'
 android {
-    compileSdk 28
+    compileSdk 31
 
     defaultConfig {
         applicationId "truerobotics.robotsdkplatform"
         minSdk 22
-        targetSdk 28
+        targetSdk 31
         versionCode 1
         versionName "1.0"
 
