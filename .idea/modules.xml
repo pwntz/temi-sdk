@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/RobotSDKPlatform.iml" filepath="$PROJECT_DIR$/.idea/modules/RobotSDKPlatform.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Library/RobotSDKPlatform.Library.iml" filepath="$PROJECT_DIR$/.idea/modules/Library/RobotSDKPlatform.Library.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/RobotSDKPlatform.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/RobotSDKPlatform.app.iml" />
     </modules>
   </component>
