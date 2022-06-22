@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.github.pwntz</groupId>
+  <artifactId>temi-sdk</artifactId>
+  <version>1.2.2-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <localCopy>true</localCopy>
+    </snapshot>
+    <lastUpdated>20220622141947</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>aar</extension>
+        <value>1.2.2-SNAPSHOT</value>
+        <updated>20220622141947</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.2.2-SNAPSHOT</value>
+        <updated>20220622141947</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
