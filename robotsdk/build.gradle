@@ -46,3 +46,32 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
 }
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            groupId 'com.github.pwntz' //You can either define these here or get them from project conf elsewhere
+            artifactId 'temi-sdk'
+            version '1.2.2-SNAPSHOT'
+            artifact "$buildDir/outputs/aar/robotsdk-debug.aar" //aar artifact you want to publish
+
+            //generate pom nodes for dependencies
+            pom.withXml {
+                def dependencies = asNode().appendNode('dependencies')
+                configurations.getByName("releaseCompileClasspath").getResolvedConfiguration().getFirstLevelModuleDependencies().each {
+                    def dependency = dependencies.appendNode('dependency')
+                    dependency.appendNode('groupId', it.moduleGroup)
+                    dependency.appendNode('artifactId', it.moduleName)
+                    dependency.appendNode('version', it.moduleVersion)
+                }
+            }
+        }
+    }
+
+    //publish to filesystem repo
+    repositories{
+        maven {
+            url "$buildDir/repo"
+        }
+    }
+}
