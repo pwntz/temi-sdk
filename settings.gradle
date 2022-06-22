@@ -9,3 +9,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "RobotSDKPlatform"
 include ':app'
+include ':robotsdks'

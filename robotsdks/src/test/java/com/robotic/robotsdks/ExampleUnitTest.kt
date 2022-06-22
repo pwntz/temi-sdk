@@ -1,4 +1,4 @@
-package com.robotic.temisdk
+package com.robotic.robotsdks
 
 import org.junit.Test
 
