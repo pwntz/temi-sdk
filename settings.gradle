@@ -8,8 +8,10 @@ dependencyResolutionManagement {
         }
         jcenter()
         maven {
-            url "https://jitpack.io"
-            credentials { username "jp_kr8bdtuog4iogghbop7v0rj2eo" }
+            url 'https://jitpack.io'
+            credentials {
+                username authToken
+            }
         }
     }
 }

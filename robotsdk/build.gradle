@@ -52,7 +52,7 @@ publishing {
         maven(MavenPublication) {
             groupId 'com.github.pwntz' //You can either define these here or get them from project conf elsewhere
             artifactId 'temi-sdk'
-            version '1.2.3-SNAPSHOT'
+            version '1.2.4-SNAPSHOT'
             artifact "$buildDir/outputs/aar/robotsdk-debug.aar" //aar artifact you want to publish
 
             //generate pom nodes for dependencies
