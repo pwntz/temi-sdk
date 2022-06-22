@@ -6,10 +6,11 @@ dependencyResolutionManagement {
         maven {
             url("$rootDir/..")
         }
-//        maven { url 'https://jitpack.io' }
+        maven { url 'https://jitpack.io' }
         jcenter() // Warning: this repository is going to shut down soon
     }
 }
 rootProject.name = "RobotSDKPlatform"
 include ':app'
 include ':robotsdk'
+include ':temisdk'
