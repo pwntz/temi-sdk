@@ -1,0 +1,138 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.robotic.robotsdks.test" >
+4
+5    <uses-sdk
+5-->/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest18103560733317776142.xml:5:5-74
+6        android:minSdkVersion="23"
+6-->/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest18103560733317776142.xml:5:15-41
+7        android:targetSdkVersion="31" />
+7-->/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest18103560733317776142.xml:5:42-71
+8
+9    <instrumentation
+9-->/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest18103560733317776142.xml:11:5-15:76
+10        android:name="androidx.test.runner.AndroidJUnitRunner"
+10-->/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest18103560733317776142.xml:11:22-76
+11        android:functionalTest="false"
+11-->/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest18103560733317776142.xml:14:22-52
+12        android:handleProfiling="false"
+12-->/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest18103560733317776142.xml:13:22-53
+13        android:label="Tests for com.robotic.robotsdks.test"
+13-->/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest18103560733317776142.xml:15:22-74
+14        android:targetPackage="com.robotic.robotsdks.test" />
+14-->/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest18103560733317776142.xml:12:22-72
+15
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->[:robotsdk] /Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-81
+16-->[:robotsdk] /Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-78
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->[:robotsdk] /Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-80
+17-->[:robotsdk] /Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-77
+18    <uses-permission android:name="android.permission.REORDER_TASKS" />
+18-->[androidx.test:core:1.4.0] /Users/puwanart/.gradle/caches/transforms-3/52aaddcf855d204fa241d24e031cbb08/transformed/jetified-core-1.4.0/AndroidManifest.xml:24:5-72
+18-->[androidx.test:core:1.4.0] /Users/puwanart/.gradle/caches/transforms-3/52aaddcf855d204fa241d24e031cbb08/transformed/jetified-core-1.4.0/AndroidManifest.xml:24:22-69
+19
+20    <queries>
+20-->[androidx.test:runner:1.4.0] /Users/puwanart/.gradle/caches/transforms-3/df380a8c10b579a0002e7c59278c8d9c/transformed/runner-1.4.0/AndroidManifest.xml:24:5-28:15
+21        <package android:name="androidx.test.orchestrator" />
+21-->[androidx.test:runner:1.4.0] /Users/puwanart/.gradle/caches/transforms-3/df380a8c10b579a0002e7c59278c8d9c/transformed/runner-1.4.0/AndroidManifest.xml:25:9-62
+21-->[androidx.test:runner:1.4.0] /Users/puwanart/.gradle/caches/transforms-3/df380a8c10b579a0002e7c59278c8d9c/transformed/runner-1.4.0/AndroidManifest.xml:25:18-59
+22        <package android:name="androidx.test.services" />
+22-->[androidx.test:runner:1.4.0] /Users/puwanart/.gradle/caches/transforms-3/df380a8c10b579a0002e7c59278c8d9c/transformed/runner-1.4.0/AndroidManifest.xml:26:9-58
+22-->[androidx.test:runner:1.4.0] /Users/puwanart/.gradle/caches/transforms-3/df380a8c10b579a0002e7c59278c8d9c/transformed/runner-1.4.0/AndroidManifest.xml:26:18-55
+23        <package android:name="com.google.android.apps.common.testing.services" />
+23-->[androidx.test:runner:1.4.0] /Users/puwanart/.gradle/caches/transforms-3/df380a8c10b579a0002e7c59278c8d9c/transformed/runner-1.4.0/AndroidManifest.xml:27:9-83
+23-->[androidx.test:runner:1.4.0] /Users/puwanart/.gradle/caches/transforms-3/df380a8c10b579a0002e7c59278c8d9c/transformed/runner-1.4.0/AndroidManifest.xml:27:18-80
+24    </queries>
+25
+26    <application
+26-->/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest18103560733317776142.xml:7:5-9:19
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.7.0] /Users/puwanart/.gradle/caches/transforms-3/892c94ae696f82aca7dc6b0db2d2366d/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+28        android:debuggable="true"
+29        android:extractNativeLibs="false" >
+30        <uses-library android:name="android.test.runner" />
+30-->/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest18103560733317776142.xml:8:9-60
+30-->/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest18103560733317776142.xml:8:23-57
+31
+32        <provider
+32-->[:robotsdk] /Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-17:40
+33            android:name="com.robotemi.sdk.TemiSdkContentProvider"
+33-->[:robotsdk] /Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-67
+34            android:authorities="com.robotic.robotsdks.test.com.robotemi.sdk"
+34-->[:robotsdk] /Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-68
+35            android:enabled="true"
+35-->[:robotsdk] /Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-35
+36            android:exported="false" />
+36-->[:robotsdk] /Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-37
+37
+38        <activity
+38-->[androidx.test:core:1.4.0] /Users/puwanart/.gradle/caches/transforms-3/52aaddcf855d204fa241d24e031cbb08/transformed/jetified-core-1.4.0/AndroidManifest.xml:27:9-34:20
+39            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+39-->[androidx.test:core:1.4.0] /Users/puwanart/.gradle/caches/transforms-3/52aaddcf855d204fa241d24e031cbb08/transformed/jetified-core-1.4.0/AndroidManifest.xml:28:13-99
+40            android:exported="true"
+40-->[androidx.test:core:1.4.0] /Users/puwanart/.gradle/caches/transforms-3/52aaddcf855d204fa241d24e031cbb08/transformed/jetified-core-1.4.0/AndroidManifest.xml:29:13-36
+41            android:theme="@android:style/Theme" >
+41-->[androidx.test:core:1.4.0] /Users/puwanart/.gradle/caches/transforms-3/52aaddcf855d204fa241d24e031cbb08/transformed/jetified-core-1.4.0/AndroidManifest.xml:30:13-49
+42            <intent-filter>
+42-->[androidx.test:core:1.4.0] /Users/puwanart/.gradle/caches/transforms-3/52aaddcf855d204fa241d24e031cbb08/transformed/jetified-core-1.4.0/AndroidManifest.xml:31:13-33:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->[androidx.test:core:1.4.0] /Users/puwanart/.gradle/caches/transforms-3/52aaddcf855d204fa241d24e031cbb08/transformed/jetified-core-1.4.0/AndroidManifest.xml:32:17-69
+43-->[androidx.test:core:1.4.0] /Users/puwanart/.gradle/caches/transforms-3/52aaddcf855d204fa241d24e031cbb08/transformed/jetified-core-1.4.0/AndroidManifest.xml:32:25-66
+44            </intent-filter>
+45        </activity>
+46        <activity
+46-->[androidx.test:core:1.4.0] /Users/puwanart/.gradle/caches/transforms-3/52aaddcf855d204fa241d24e031cbb08/transformed/jetified-core-1.4.0/AndroidManifest.xml:35:9-42:20
+47            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+47-->[androidx.test:core:1.4.0] /Users/puwanart/.gradle/caches/transforms-3/52aaddcf855d204fa241d24e031cbb08/transformed/jetified-core-1.4.0/AndroidManifest.xml:36:13-95
+48            android:exported="true"
+48-->[androidx.test:core:1.4.0] /Users/puwanart/.gradle/caches/transforms-3/52aaddcf855d204fa241d24e031cbb08/transformed/jetified-core-1.4.0/AndroidManifest.xml:37:13-36
+49            android:theme="@android:style/Theme" >
+49-->[androidx.test:core:1.4.0] /Users/puwanart/.gradle/caches/transforms-3/52aaddcf855d204fa241d24e031cbb08/transformed/jetified-core-1.4.0/AndroidManifest.xml:38:13-49
+50            <intent-filter>
+50-->[androidx.test:core:1.4.0] /Users/puwanart/.gradle/caches/transforms-3/52aaddcf855d204fa241d24e031cbb08/transformed/jetified-core-1.4.0/AndroidManifest.xml:31:13-33:29
+51                <action android:name="android.intent.action.MAIN" />
+51-->[androidx.test:core:1.4.0] /Users/puwanart/.gradle/caches/transforms-3/52aaddcf855d204fa241d24e031cbb08/transformed/jetified-core-1.4.0/AndroidManifest.xml:32:17-69
+51-->[androidx.test:core:1.4.0] /Users/puwanart/.gradle/caches/transforms-3/52aaddcf855d204fa241d24e031cbb08/transformed/jetified-core-1.4.0/AndroidManifest.xml:32:25-66
+52            </intent-filter>
+53        </activity>
+54        <activity
+54-->[androidx.test:core:1.4.0] /Users/puwanart/.gradle/caches/transforms-3/52aaddcf855d204fa241d24e031cbb08/transformed/jetified-core-1.4.0/AndroidManifest.xml:43:9-50:20
+55            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+55-->[androidx.test:core:1.4.0] /Users/puwanart/.gradle/caches/transforms-3/52aaddcf855d204fa241d24e031cbb08/transformed/jetified-core-1.4.0/AndroidManifest.xml:44:13-103
+56            android:exported="true"
+56-->[androidx.test:core:1.4.0] /Users/puwanart/.gradle/caches/transforms-3/52aaddcf855d204fa241d24e031cbb08/transformed/jetified-core-1.4.0/AndroidManifest.xml:45:13-36
+57            android:theme="@android:style/Theme.Dialog" >
+57-->[androidx.test:core:1.4.0] /Users/puwanart/.gradle/caches/transforms-3/52aaddcf855d204fa241d24e031cbb08/transformed/jetified-core-1.4.0/AndroidManifest.xml:46:13-56
+58            <intent-filter>
+58-->[androidx.test:core:1.4.0] /Users/puwanart/.gradle/caches/transforms-3/52aaddcf855d204fa241d24e031cbb08/transformed/jetified-core-1.4.0/AndroidManifest.xml:31:13-33:29
+59                <action android:name="android.intent.action.MAIN" />
+59-->[androidx.test:core:1.4.0] /Users/puwanart/.gradle/caches/transforms-3/52aaddcf855d204fa241d24e031cbb08/transformed/jetified-core-1.4.0/AndroidManifest.xml:32:17-69
+59-->[androidx.test:core:1.4.0] /Users/puwanart/.gradle/caches/transforms-3/52aaddcf855d204fa241d24e031cbb08/transformed/jetified-core-1.4.0/AndroidManifest.xml:32:25-66
+60            </intent-filter>
+61        </activity>
+62
+63        <provider
+63-->[androidx.emoji2:emoji2:1.0.0] /Users/puwanart/.gradle/caches/transforms-3/73b2d148b4c2c93f6c8bf80a90dfc181/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+64            android:name="androidx.startup.InitializationProvider"
+64-->[androidx.emoji2:emoji2:1.0.0] /Users/puwanart/.gradle/caches/transforms-3/73b2d148b4c2c93f6c8bf80a90dfc181/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+65            android:authorities="com.robotic.robotsdks.test.androidx-startup"
+65-->[androidx.emoji2:emoji2:1.0.0] /Users/puwanart/.gradle/caches/transforms-3/73b2d148b4c2c93f6c8bf80a90dfc181/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+66            android:exported="false" >
+66-->[androidx.emoji2:emoji2:1.0.0] /Users/puwanart/.gradle/caches/transforms-3/73b2d148b4c2c93f6c8bf80a90dfc181/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+67            <meta-data
+67-->[androidx.emoji2:emoji2:1.0.0] /Users/puwanart/.gradle/caches/transforms-3/73b2d148b4c2c93f6c8bf80a90dfc181/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+68                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+68-->[androidx.emoji2:emoji2:1.0.0] /Users/puwanart/.gradle/caches/transforms-3/73b2d148b4c2c93f6c8bf80a90dfc181/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+69                android:value="androidx.startup" />
+69-->[androidx.emoji2:emoji2:1.0.0] /Users/puwanart/.gradle/caches/transforms-3/73b2d148b4c2c93f6c8bf80a90dfc181/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+70            <meta-data
+70-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/puwanart/.gradle/caches/transforms-3/c105f83d8b57773a53f13cb1b67dac3d/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+71                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+71-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/puwanart/.gradle/caches/transforms-3/c105f83d8b57773a53f13cb1b67dac3d/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+72                android:value="androidx.startup" />
+72-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/puwanart/.gradle/caches/transforms-3/c105f83d8b57773a53f13cb1b67dac3d/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+73        </provider>
+74    </application>
+75
+76</manifest>

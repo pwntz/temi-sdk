@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/merged_res/release/xml/standalone_badge_gravity_bottom_start.xml",
+        "source": "/Users/puwanart/.gradle/caches/transforms-3/70d5584ea2e262e5dc9f0a5a9630a610/transformed/material-1.6.1/res/xml/standalone_badge_gravity_bottom_start.xml"
+    },
+    {
+        "merged": "/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/merged_res/release/xml/standalone_badge.xml",
+        "source": "/Users/puwanart/.gradle/caches/transforms-3/70d5584ea2e262e5dc9f0a5a9630a610/transformed/material-1.6.1/res/xml/standalone_badge.xml"
+    },
+    {
+        "merged": "/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/merged_res/release/xml/standalone_badge_gravity_bottom_end.xml",
+        "source": "/Users/puwanart/.gradle/caches/transforms-3/70d5584ea2e262e5dc9f0a5a9630a610/transformed/material-1.6.1/res/xml/standalone_badge_gravity_bottom_end.xml"
+    },
+    {
+        "merged": "/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/merged_res/release/xml/standalone_badge_gravity_top_start.xml",
+        "source": "/Users/puwanart/.gradle/caches/transforms-3/70d5584ea2e262e5dc9f0a5a9630a610/transformed/material-1.6.1/res/xml/standalone_badge_gravity_top_start.xml"
+    },
+    {
+        "merged": "/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/merged_res/release/xml/standalone_badge_offset.xml",
+        "source": "/Users/puwanart/.gradle/caches/transforms-3/70d5584ea2e262e5dc9f0a5a9630a610/transformed/material-1.6.1/res/xml/standalone_badge_offset.xml"
+    }
+]

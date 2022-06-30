@@ -1,0 +1,19 @@
+<lint-module
+    format="1"
+    dir="/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk"
+    name=":robotsdk"
+    type="LIBRARY"
+    maven="RobotSDKPlatform:robotsdk:"
+    gradle="7.1.3"
+    buildFolder="build"
+    bootClassPath="/Users/puwanart/Library/Android/sdk/platforms/android-31/android.jar:/Users/puwanart/Library/Android/sdk/build-tools/30.0.3/core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-31"
+    neverShrinking="true">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="debug"/>
+</lint-module>

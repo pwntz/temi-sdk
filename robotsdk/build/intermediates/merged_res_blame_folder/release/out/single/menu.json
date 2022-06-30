@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/merged_res/release/menu/example_menu2.xml",
+        "source": "/Users/puwanart/.gradle/caches/transforms-3/892c94ae696f82aca7dc6b0db2d2366d/transformed/core-1.7.0/res/menu/example_menu2.xml"
+    },
+    {
+        "merged": "/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/merged_res/release/menu/example_menu.xml",
+        "source": "/Users/puwanart/.gradle/caches/transforms-3/892c94ae696f82aca7dc6b0db2d2366d/transformed/core-1.7.0/res/menu/example_menu.xml"
+    }
+]

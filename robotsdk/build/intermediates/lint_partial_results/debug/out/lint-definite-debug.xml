@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 7.1.3" type="incidents">
+
+    <incident
+        id="TextFields"
+        severity="warning"
+        message="This text field does not specify an `inputType`">
+        <fix-attribute
+            description="Set inputType"
+            namespace="http://schemas.android.com/apk/res/android"
+            attribute="inputType"
+            value="TODO"
+            dot="4"
+            mark="0"/>
+        <location
+            file="${:robotsdk*debug*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="9"
+            column="6"
+            startOffset="378"
+            endLine="9"
+            endColumn="14"
+            endOffset="386"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                dot="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:robotsdk*debug*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="9"
+            column="6"
+            startOffset="378"
+            endLine="9"
+            endColumn="14"
+            endOffset="386"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Location&quot;, should use `@string` resource">
+        <location
+            file="${:robotsdk*debug*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="13"
+            column="9"
+            startOffset="521"
+            endLine="13"
+            endColumn="32"
+            endOffset="544"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Save Location&quot;, should use `@string` resource">
+        <location
+            file="${:robotsdk*debug*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="24"
+            column="9"
+            startOffset="972"
+            endLine="24"
+            endColumn="37"
+            endOffset="1000"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Load Location&quot;, should use `@string` resource">
+        <location
+            file="${:robotsdk*debug*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="35"
+            column="9"
+            startOffset="1413"
+            endLine="35"
+            endColumn="37"
+            endOffset="1441"/>
+    </incident>
+
+    <incident
+        id="StaticFieldLeak"
+        severity="warning"
+        message="Do not place Android context classes in static fields (static reference to `RobotOSApplication` which has field `mContext` pointing to `Context`); this is a memory leak">
+        <location
+            file="${:robotsdk*debug*sourceProvider*0*javaDir*0}/com/robotic/robotsdks/ROS/RobotOSApplication.java"
+            line="39"
+            column="13"
+            startOffset="1355"
+            endLine="39"
+            endColumn="19"
+            endOffset="1361"/>
+    </incident>
+
+</incidents>

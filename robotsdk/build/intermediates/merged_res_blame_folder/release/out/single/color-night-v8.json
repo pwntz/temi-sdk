@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/merged_res/release/color-night-v8/material_timepicker_clockface.xml",
+        "source": "/Users/puwanart/.gradle/caches/transforms-3/70d5584ea2e262e5dc9f0a5a9630a610/transformed/material-1.6.1/res/color-night-v8/material_timepicker_clockface.xml"
+    },
+    {
+        "merged": "/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/merged_res/release/color-night-v8/material_timepicker_modebutton_tint.xml",
+        "source": "/Users/puwanart/.gradle/caches/transforms-3/70d5584ea2e262e5dc9f0a5a9630a610/transformed/material-1.6.1/res/color-night-v8/material_timepicker_modebutton_tint.xml"
+    },
+    {
+        "merged": "/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/merged_res/release/color-night-v8/material_timepicker_button_stroke.xml",
+        "source": "/Users/puwanart/.gradle/caches/transforms-3/70d5584ea2e262e5dc9f0a5a9630a610/transformed/material-1.6.1/res/color-night-v8/material_timepicker_button_stroke.xml"
+    }
+]

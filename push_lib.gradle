@@ -1,0 +1,27 @@
+apply plugin: 'maven-publish'
+
+//Properties
+def ftpUrl = getProperty('ftpUrl')
+def ftpUserName = getProperty('ftpUserName')
+def ftpPassword = getProperty('ftpPassword')
+
+configurations {
+    deployerJars
+}
+
+dependencies {
+    //FTP library
+    deployerJars "org.apache.maven.wagon:wagon-ftp:2.2"
+}
+
+publishing {
+    repositories {
+        maven {
+            url = uri(ftpUrl)
+            credentials {
+                username = ftpUserName
+                password = ftpPassword
+            }
+        }
+    }
+}

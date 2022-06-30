@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/merged_res/release/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "/Users/puwanart/.gradle/caches/transforms-3/868396d35d17e665f835951c4f58efce/transformed/appcompat-1.4.2/res/values-port/values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "/Users/puwanart/.gradle/caches/transforms-3/868396d35d17e665f835951c4f58efce/transformed/appcompat-1.4.2/res/values-port/values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}

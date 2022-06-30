@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/merged_res/release/layout-watch-v20/abc_alert_dialog_button_bar_material.xml",
+        "source": "/Users/puwanart/.gradle/caches/transforms-3/868396d35d17e665f835951c4f58efce/transformed/appcompat-1.4.2/res/layout-watch-v20/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/merged_res/release/layout-watch-v20/abc_alert_dialog_title_material.xml",
+        "source": "/Users/puwanart/.gradle/caches/transforms-3/868396d35d17e665f835951c4f58efce/transformed/appcompat-1.4.2/res/layout-watch-v20/abc_alert_dialog_title_material.xml"
+    }
+]

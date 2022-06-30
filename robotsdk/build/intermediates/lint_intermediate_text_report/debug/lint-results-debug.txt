@@ -1,0 +1,84 @@
+/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/src/main/java/com/robotic/robotsdks/ROS/RobotOSApplication.java:39: Warning: Do not place Android context classes in static fields (static reference to RobotOSApplication which has field mContext pointing to Context); this is a memory leak [StaticFieldLeak]
+    private static RobotOSApplication mApplication;
+            ~~~~~~
+
+   Explanation for issues of type "StaticFieldLeak":
+   A static field will leak contexts.
+
+   Non-static inner classes have an implicit reference to their outer class.
+   If that outer class is for example a Fragment or Activity, then this
+   reference means that the long-running handler/loader/task will hold a
+   reference to the activity which prevents it from getting garbage
+   collected.
+
+   Similarly, direct field references to activities and fragments from these
+   longer running instances can cause leaks.
+
+   ViewModel classes should never point to Views or non-application Contexts.
+
+/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/src/main/res/layout/activity_main.xml:9: Warning: This text field does not specify an inputType [TextFields]
+    <EditText
+     ~~~~~~~~
+
+   Explanation for issues of type "TextFields":
+   Providing an inputType attribute on a text field improves usability because
+   depending on the data to be input, optimized keyboards can be shown to the
+   user (such as just digits and parentheses for a phone number). 
+
+   The lint detector also looks at the id of the view, and if the id offers a
+   hint of the purpose of the field (for example, the id contains the phrase
+   phone or email), then lint will also ensure that the inputType contains the
+   corresponding type attributes.
+
+   If you really want to keep the text field generic, you can suppress this
+   warning by setting inputType="text".
+
+/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/src/main/res/layout/activity_main.xml:9: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+
+   Explanation for issues of type "Autofill":
+   Specify an autofillHints attribute when targeting SDK version 26 or higher
+   or explicitly specify that the view is not important for autofill. Your app
+   can help an autofill service classify the data correctly by providing the
+   meaning of each view that could be autofillable, such as views representing
+   usernames, passwords, credit card fields, email addresses, etc.
+
+   The hints can have any value, but it is recommended to use predefined
+   values like 'username' for a username or 'creditCardNumber' for a credit
+   card number. For a list of all predefined autofill hint constants, see the
+   AUTOFILL_HINT_ constants in the View reference at
+   https://developer.android.com/reference/android/view/View.html.
+
+   You can mark a view unimportant for autofill by specifying an
+   importantForAutofill attribute on that view or a parent view. See
+   https://developer.android.com/reference/android/view/View.html#setImportant
+   ForAutofill(int).
+
+   https://developer.android.com/guide/topics/text/autofill.html
+
+/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/src/main/res/layout/activity_main.xml:13: Warning: Hardcoded string "Location", should use @string resource [HardcodedText]
+        android:hint="Location"
+        ~~~~~~~~~~~~~~~~~~~~~~~
+/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/src/main/res/layout/activity_main.xml:24: Warning: Hardcoded string "Save Location", should use @string resource [HardcodedText]
+        android:text="Save Location"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/src/main/res/layout/activity_main.xml:35: Warning: Hardcoded string "Load Location", should use @string resource [HardcodedText]
+        android:text="Load Location"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "HardcodedText":
+   Hardcoding text attributes directly in layout files is bad for several
+   reasons:
+
+   * When creating configuration variations (for example for landscape or
+   portrait) you have to repeat the actual text (and keep it up to date when
+   making changes)
+
+   * The application cannot be translated to other languages by just adding
+   new translations for existing string resources.
+
+   There are quickfixes to automatically extract this hardcoded string into a
+   resource lookup.
+
+0 errors, 6 warnings

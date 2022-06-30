@@ -1,0 +1,134 @@
+[
+    {
+        "merged": "/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/merged_res/release/anim/btn_radio_to_off_mtrl_ring_outer_animation.xml",
+        "source": "/Users/puwanart/.gradle/caches/transforms-3/868396d35d17e665f835951c4f58efce/transformed/appcompat-1.4.2/res/anim/btn_radio_to_off_mtrl_ring_outer_animation.xml"
+    },
+    {
+        "merged": "/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/merged_res/release/anim/btn_checkbox_to_unchecked_box_inner_merged_animation.xml",
+        "source": "/Users/puwanart/.gradle/caches/transforms-3/868396d35d17e665f835951c4f58efce/transformed/appcompat-1.4.2/res/anim/btn_checkbox_to_unchecked_box_inner_merged_animation.xml"
+    },
+    {
+        "merged": "/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/merged_res/release/anim/abc_popup_enter.xml",
+        "source": "/Users/puwanart/.gradle/caches/transforms-3/868396d35d17e665f835951c4f58efce/transformed/appcompat-1.4.2/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/merged_res/release/anim/decelerate_quint.xml",
+        "source": "/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/exploded-aar/RobotSDKPlatform/temisdk/unspecified/release/res/anim/decelerate_quint.xml"
+    },
+    {
+        "merged": "/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/merged_res/release/anim/decelerate_cubic.xml",
+        "source": "/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/exploded-aar/RobotSDKPlatform/temisdk/unspecified/release/res/anim/decelerate_cubic.xml"
+    },
+    {
+        "merged": "/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/merged_res/release/anim/btn_radio_to_on_mtrl_dot_group_animation.xml",
+        "source": "/Users/puwanart/.gradle/caches/transforms-3/868396d35d17e665f835951c4f58efce/transformed/appcompat-1.4.2/res/anim/btn_radio_to_on_mtrl_dot_group_animation.xml"
+    },
+    {
+        "merged": "/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/merged_res/release/anim/open_exit.xml",
+        "source": "/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/exploded-aar/RobotSDKPlatform/temisdk/unspecified/release/res/anim/open_exit.xml"
+    },
+    {
+        "merged": "/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/merged_res/release/anim/abc_fade_in.xml",
+        "source": "/Users/puwanart/.gradle/caches/transforms-3/868396d35d17e665f835951c4f58efce/transformed/appcompat-1.4.2/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/merged_res/release/anim/btn_radio_to_on_mtrl_ring_outer_path_animation.xml",
+        "source": "/Users/puwanart/.gradle/caches/transforms-3/868396d35d17e665f835951c4f58efce/transformed/appcompat-1.4.2/res/anim/btn_radio_to_on_mtrl_ring_outer_path_animation.xml"
+    },
+    {
+        "merged": "/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/merged_res/release/anim/btn_checkbox_to_checked_box_inner_merged_animation.xml",
+        "source": "/Users/puwanart/.gradle/caches/transforms-3/868396d35d17e665f835951c4f58efce/transformed/appcompat-1.4.2/res/anim/btn_checkbox_to_checked_box_inner_merged_animation.xml"
+    },
+    {
+        "merged": "/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/merged_res/release/anim/btn_checkbox_to_checked_box_outer_merged_animation.xml",
+        "source": "/Users/puwanart/.gradle/caches/transforms-3/868396d35d17e665f835951c4f58efce/transformed/appcompat-1.4.2/res/anim/btn_checkbox_to_checked_box_outer_merged_animation.xml"
+    },
+    {
+        "merged": "/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/merged_res/release/anim/mtrl_card_lowers_interpolator.xml",
+        "source": "/Users/puwanart/.gradle/caches/transforms-3/70d5584ea2e262e5dc9f0a5a9630a610/transformed/material-1.6.1/res/anim/mtrl_card_lowers_interpolator.xml"
+    },
+    {
+        "merged": "/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/merged_res/release/anim/btn_checkbox_to_unchecked_check_path_merged_animation.xml",
+        "source": "/Users/puwanart/.gradle/caches/transforms-3/868396d35d17e665f835951c4f58efce/transformed/appcompat-1.4.2/res/anim/btn_checkbox_to_unchecked_check_path_merged_animation.xml"
+    },
+    {
+        "merged": "/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/merged_res/release/anim/abc_fade_out.xml",
+        "source": "/Users/puwanart/.gradle/caches/transforms-3/868396d35d17e665f835951c4f58efce/transformed/appcompat-1.4.2/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/merged_res/release/anim/close_enter.xml",
+        "source": "/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/exploded-aar/RobotSDKPlatform/temisdk/unspecified/release/res/anim/close_enter.xml"
+    },
+    {
+        "merged": "/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/merged_res/release/anim/abc_tooltip_enter.xml",
+        "source": "/Users/puwanart/.gradle/caches/transforms-3/868396d35d17e665f835951c4f58efce/transformed/appcompat-1.4.2/res/anim/abc_tooltip_enter.xml"
+    },
+    {
+        "merged": "/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/merged_res/release/anim/abc_tooltip_exit.xml",
+        "source": "/Users/puwanart/.gradle/caches/transforms-3/868396d35d17e665f835951c4f58efce/transformed/appcompat-1.4.2/res/anim/abc_tooltip_exit.xml"
+    },
+    {
+        "merged": "/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/merged_res/release/anim/open_enter.xml",
+        "source": "/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/exploded-aar/RobotSDKPlatform/temisdk/unspecified/release/res/anim/open_enter.xml"
+    },
+    {
+        "merged": "/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/merged_res/release/anim/btn_checkbox_to_checked_icon_null_animation.xml",
+        "source": "/Users/puwanart/.gradle/caches/transforms-3/868396d35d17e665f835951c4f58efce/transformed/appcompat-1.4.2/res/anim/btn_checkbox_to_checked_icon_null_animation.xml"
+    },
+    {
+        "merged": "/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/merged_res/release/anim/close_exit.xml",
+        "source": "/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/exploded-aar/RobotSDKPlatform/temisdk/unspecified/release/res/anim/close_exit.xml"
+    },
+    {
+        "merged": "/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/merged_res/release/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/puwanart/.gradle/caches/transforms-3/868396d35d17e665f835951c4f58efce/transformed/appcompat-1.4.2/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/merged_res/release/anim/btn_radio_to_on_mtrl_ring_outer_animation.xml",
+        "source": "/Users/puwanart/.gradle/caches/transforms-3/868396d35d17e665f835951c4f58efce/transformed/appcompat-1.4.2/res/anim/btn_radio_to_on_mtrl_ring_outer_animation.xml"
+    },
+    {
+        "merged": "/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/merged_res/release/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/puwanart/.gradle/caches/transforms-3/868396d35d17e665f835951c4f58efce/transformed/appcompat-1.4.2/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/merged_res/release/anim/design_snackbar_in.xml",
+        "source": "/Users/puwanart/.gradle/caches/transforms-3/70d5584ea2e262e5dc9f0a5a9630a610/transformed/material-1.6.1/res/anim/design_snackbar_in.xml"
+    },
+    {
+        "merged": "/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/merged_res/release/anim/abc_popup_exit.xml",
+        "source": "/Users/puwanart/.gradle/caches/transforms-3/868396d35d17e665f835951c4f58efce/transformed/appcompat-1.4.2/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/merged_res/release/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/puwanart/.gradle/caches/transforms-3/868396d35d17e665f835951c4f58efce/transformed/appcompat-1.4.2/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/merged_res/release/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/puwanart/.gradle/caches/transforms-3/868396d35d17e665f835951c4f58efce/transformed/appcompat-1.4.2/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/merged_res/release/anim/btn_radio_to_off_mtrl_ring_outer_path_animation.xml",
+        "source": "/Users/puwanart/.gradle/caches/transforms-3/868396d35d17e665f835951c4f58efce/transformed/appcompat-1.4.2/res/anim/btn_radio_to_off_mtrl_ring_outer_path_animation.xml"
+    },
+    {
+        "merged": "/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/merged_res/release/anim/btn_radio_to_off_mtrl_dot_group_animation.xml",
+        "source": "/Users/puwanart/.gradle/caches/transforms-3/868396d35d17e665f835951c4f58efce/transformed/appcompat-1.4.2/res/anim/btn_radio_to_off_mtrl_dot_group_animation.xml"
+    },
+    {
+        "merged": "/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/merged_res/release/anim/abc_slide_in_top.xml",
+        "source": "/Users/puwanart/.gradle/caches/transforms-3/868396d35d17e665f835951c4f58efce/transformed/appcompat-1.4.2/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/merged_res/release/anim/abc_slide_out_top.xml",
+        "source": "/Users/puwanart/.gradle/caches/transforms-3/868396d35d17e665f835951c4f58efce/transformed/appcompat-1.4.2/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/merged_res/release/anim/design_snackbar_out.xml",
+        "source": "/Users/puwanart/.gradle/caches/transforms-3/70d5584ea2e262e5dc9f0a5a9630a610/transformed/material-1.6.1/res/anim/design_snackbar_out.xml"
+    },
+    {
+        "merged": "/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/merged_res/release/anim/btn_checkbox_to_unchecked_icon_null_animation.xml",
+        "source": "/Users/puwanart/.gradle/caches/transforms-3/868396d35d17e665f835951c4f58efce/transformed/appcompat-1.4.2/res/anim/btn_checkbox_to_unchecked_icon_null_animation.xml"
+    }
+]

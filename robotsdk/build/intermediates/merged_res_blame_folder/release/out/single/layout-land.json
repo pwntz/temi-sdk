@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/merged_res/release/layout-land/material_clock_period_toggle_land.xml",
+        "source": "/Users/puwanart/.gradle/caches/transforms-3/70d5584ea2e262e5dc9f0a5a9630a610/transformed/material-1.6.1/res/layout-land/material_clock_period_toggle_land.xml"
+    },
+    {
+        "merged": "/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/merged_res/release/layout-land/material_timepicker.xml",
+        "source": "/Users/puwanart/.gradle/caches/transforms-3/70d5584ea2e262e5dc9f0a5a9630a610/transformed/material-1.6.1/res/layout-land/material_timepicker.xml"
+    },
+    {
+        "merged": "/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/merged_res/release/layout-land/mtrl_picker_header_dialog.xml",
+        "source": "/Users/puwanart/.gradle/caches/transforms-3/70d5584ea2e262e5dc9f0a5a9630a610/transformed/material-1.6.1/res/layout-land/mtrl_picker_header_dialog.xml"
+    }
+]

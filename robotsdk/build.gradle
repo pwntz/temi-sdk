@@ -1,15 +1,14 @@
 plugins {
     id 'com.android.library'
-    id 'org.jetbrains.kotlin.android'
-    id 'kotlin-android'
     id 'maven-publish'
+    id 'com.kezong.fat-aar'
 }
 
 android {
     compileSdk 31
 
     defaultConfig {
-        minSdk 24
+        minSdk 23
         targetSdk 31
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
@@ -22,56 +21,80 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+}
+// <!-- publishing to private maven central --/> //
+
+
+task sourceJar(type: Jar) {
+    from android.sourceSets.main.java.srcDirs
+    classifier "sources"
+}
+
+publishing {
+    publications {
+        bar(MavenPublication) {
+            groupId 'true.robotics.utility'
+            artifactId 'temisdk'
+            version '1.0.0'
+            artifact(sourceJar)
+            artifact("$buildDir/outputs/aar/robotsdk-debug.aar")
+        }
     }
-    kotlinOptions {
-        jvmTarget = '1.8'
+    repositories {
+        maven {
+            url "$buildDir/repo"
+        }
     }
 }
 
+apply from: '../push_lib.gradle'
+
+// <!-- publishing to private maven central --/> //
+
+afterEvaluate {
+    // for app test, copy the final aar to application libs
+    android.libraryVariants.all { variant ->
+        File outputFile = variant.outputs.first().outputFile
+        tasks.named("assemble${variant.name.capitalize()}").configure {
+            doLast {
+                copy {
+                    from outputFile
+                    into "../app/libs"
+                    rename outputFile.name, "fat-aar-final.aar"
+                }
+            }
+        }
+    }
+}
+
+// <!-- Embed libs and convert to aar file --/> //
+configurations {
+    myConfig
+}
+
+task copyLibs(type: Copy) {
+    from configurations.myConfig
+    into "$project.rootDir/reports/libs/"
+}
+
+// <!-- Embed libs and convert to aar file --/> //
+
+
 dependencies {
+    implementation fileTree(dir: 'libs', include: '*.jar')
 
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.4.2'
     implementation 'com.google.android.material:material:1.6.1'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     testImplementation 'junit:junit:4.13.2'
-    implementation files('libs/robotservice_V1.jar')
-//    implementation files('libs/temisdk.aar')
-    implementation project(path: ':temisdk')
-
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    embed project(path: ':temisdk', configuration: 'default')
 
-}
+    myConfig fileTree(dir: 'libs', include: ['*.jar'])
+    myConfig files('libs/robotservice_V1.jar')
 
-publishing {
-    publications {
-        maven(MavenPublication) {
-            groupId 'com.github.pwntz' //You can either define these here or get them from project conf elsewhere
-            artifactId 'temi-sdk'
-            version '1.2.5'
-            artifact "$buildDir/outputs/aar/robotsdk-debug.aar" //aar artifact you want to publish
 
-            //generate pom nodes for dependencies
-            pom.withXml {
-                def dependencies = asNode().appendNode('dependencies')
-                configurations.getByName("releaseCompileClasspath").getResolvedConfiguration().getFirstLevelModuleDependencies().each {
-                    def dependency = dependencies.appendNode('dependency')
-                    dependency.appendNode('groupId', it.moduleGroup)
-                    dependency.appendNode('artifactId', it.moduleName)
-                    dependency.appendNode('version', it.moduleVersion)
-                }
-            }
-        }
-    }
 
-    //publish to filesystem repo
-    repositories{
-        maven {
-            url "$buildDir/repo"
-        }
-    }
 }

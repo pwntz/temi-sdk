@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/merged_res/release/layout-v26/mtrl_calendar_month.xml",
+        "source": "/Users/puwanart/.gradle/caches/transforms-3/70d5584ea2e262e5dc9f0a5a9630a610/transformed/material-1.6.1/res/layout-v26/mtrl_calendar_month.xml"
+    },
+    {
+        "merged": "/Users/puwanart/Documents/dev-android/temi-sdk/robotsdk/build/intermediates/merged_res/release/layout-v26/abc_screen_toolbar.xml",
+        "source": "/Users/puwanart/.gradle/caches/transforms-3/868396d35d17e665f835951c4f58efce/transformed/appcompat-1.4.2/res/layout-v26/abc_screen_toolbar.xml"
+    }
+]
